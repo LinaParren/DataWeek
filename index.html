@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,11 +15,82 @@
     integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
 </head>
 
-<body>
-    
-    <div id="map"></div>
 
-    <script type="module" src="./scripts/main.js"></script>
+<body>
+
+  <!-- Article that contains scroll function -->
+  <article id="scroll">
+
+
+    <!-- First section: introduction -->
+    <section id="firstscreen">
+
+      <img id="logo" src="./images/logo.png" alt="Logo Gemeente Amsterdam">
+
+      <h2>Hieronder vind je een overzicht van hoeveel euro het kost om te parkeren in Amsterdam.</h2>
+      <p>Scroll naar beneden om jouw gewenste zone te zoeken!</p>
+
+      <!-- Button, down to next screen -->
+      <img id="arrowdown" src="./images/arrowdown.png" alt="Arrow to next screen">
+
+    </section>
+
+
+    <!-- Second section: choose zone and view map -->
+    <section id="secondscreen">
+
+      <!-- Left part: choose zone -->
+      <div id="info">
+
+        <section id="seclogo">
+          <img id="logo" src="./images/logo.png" alt="Logo Gemeente Amsterdam">
+        </section>
+
+        <!-- Checkboxes to choose zone -->
+        <section id="checkboxes">
+          <p id="explanation">Vink een prijs aan om de bijbehorende zones te bekijken</p>
+          <label id="zone1">
+            <input type="checkbox" value="7,50"> &euro;7,50 </label>
+          <label id="zone2">
+            <input type="checkbox" value="6,00"> &euro;6,00 </label>
+          <label id="zone3">
+            <input type="checkbox" value="4,50"> &euro;4,50 </label>
+          <label id="zone4">
+            <input type="checkbox" value="3,50"> &euro;3,50 </label>
+          <label id="zone5">
+            <input type="checkbox" value="2,50"> &euro;2,50 </label>
+          <label id="zone6">
+            <input type="checkbox" value="1,40"> &euro;1,40 </label>
+        </section>
+
+        <!-- Calculator to let user add numbers, to calculate probable cost -->
+        <section id="calculator">
+          <p>Bereken hier de prijs voor het parkeren</p>
+          <p>Prijs van de zone waar je parkeert: <input id="prices"></p>
+          <p>Aantal uur dat je wil parkeren: <input id="hour"></p>
+          <p id="answer">Totaal: </p>
+          <button id="answerbutton">Bereken prijs</button>
+        </section>
+
+        <!-- Button for fun, to zoom to different place on map -->
+        <section id="buttons">
+          <button type="button" id="Lim" onClick="zoomLim()">Gratis parkeren? Klik hier!</button>
+          <button type="button" id="Ams" onClick="zoomAms()" style="display:none">Terug naar Amsterdam</button>
+          <p id="footer">Lina Parren, 2022</p>
+        </section>
+
+      </div>
+
+      <!-- Right part: view map -->
+      <div id="map"></div>
+
+    </section>
+
+  </article>
+
+  <!-- Add script to load JavaScript -->
+  <script type="module" src="./scripts/mapview.js"></script>
 
 </body>
+
 </html>

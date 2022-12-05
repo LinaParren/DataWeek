@@ -6,6 +6,164 @@
 	font-size: 1em;
   }
 
-  #map { 
+
+/* FIRST SCREEN */
+#firstscreen {
+	height: 100vh; 
+}
+
+#firstscreen #logo {
+	width: 18em;
+	display: block;
+	padding-top: 5em;
+	padding-bottom: 3em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#firstscreen h2 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#firstscreen p {
+	text-align: center;
+}
+
+#arrowdown {
+	width: 3em;
+	display: block;
+	padding-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* SECOND SCREEN */
+#secondscreen {
+	display: flex;
+	height: 100vh;
+}
+
+#info {
+	width: 30%;
+	padding-left: 2em;
+	padding-top: 1em;
+}
+
+#info #seclogo {
+	height: 20%;
+}
+
+#info #checkboxes {
+	height: 45%;
+}
+
+#info #calculator {
+	height: 18%;
+	margin-bottom: 1em;
+}
+
+#info #buttons {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3em;
+}
+
+#secondscreen #explanation {
+	text-align: left;
+	margin-bottom: 2em;
+}
+
+#secondscreen #logo {
+	width: 12em;
+}
+
+#calculator {
+	font-size: 0.8em;
+	text-align: left;
+	border: dashed 1px black;
 	width: 70%;
+	padding: 0.5em;
+}
+
+#calculator input{
+	width: 10%;
+}
+
+#calculator p {
+	margin-bottom: 0.5em;
+}
+
+#calculator p:first-of-type {
+	text-decoration: underline;
+}
+
+#calculator button {
+	font-size: 0.8em;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	border: solid 0.1em black;
+	border-radius: none;
+	background-color: white;
+}
+
+#buttons button {
+	width: 35%;
+	font-size: 0.5em;
+	margin-bottom: 1em;
+	border: solid 0.1em red;
+	border-radius: none;
+	background-color: white;
+}
+
+#map { 
+	width: 70%;
+}
+
+#footer {
+	font-size: 0.5em;
+}
+
+input[type=checkbox] {
+	order: 2;
+	margin-left: 3em;
+}
+
+label {
+	display: flex;
+	margin-bottom: 1em;
+}
+
+
+/* SCROLL */
+#scroll {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+#scroll section {
+    scroll-snap-align: start;
+}
+
+
+/* Colors for the different zones */
+#zone1 {
+	color: #FF0000;
+}
+#zone2{
+	color: #FF9D00;
+}
+#zone3{
+	color: #F7E405;
+}
+#zone4{
+	color: #6CD800;
+}
+#zone5{
+	color: #0062FF;
+}
+#zone6{
+	color: #BE00EB;
 }
