@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./images/favicon.png" />
+  <!-- <link rel="icon" type="image/svg+xml" href="./images/favicon.png" /> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./styles/style.css">
-  <title>Parkeren in Amsterdam</title>
+  <title>States and their genres</title>
 
   <!-- Needed to add Leaflet -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
@@ -18,78 +18,77 @@
 
 <body>
 
-  <!-- Article that contains scroll function -->
   <article id="scroll">
 
-
-    <!-- First section: introduction -->
     <section id="firstscreen">
 
-      <img id="logo" src="./images/logo.png" alt="Logo Gemeente Amsterdam">
+      <div id="header">
+        <img src="./images/logo.png" alt="Logo">
+        <h2>Our FAVORITE ARTISTS: WHERE they WERE BORN <br> and what GENRE THEY BECAME</h2>
+            <p>A indication per state and the music genres that the artists that are born there produce.</p>
+      </div>
 
-      <h2>Hieronder vind je een overzicht van hoeveel euro het kost om te parkeren in Amsterdam.</h2>
-      <p>Scroll naar beneden om jouw gewenste zone te zoeken!</p>
-
-      <!-- Button, down to next screen -->
-      <img id="arrowdown" src="./images/arrowdown.png" alt="Arrow to next screen">
+      <div id="visuals">
+        <p>There are many states and each had their own artists with their own specific genre. These visuals show you
+          how many states are included and what the genres are that can be found in those states. <br> <br>
+          You can also find the genres on a interactive map! Scroll down to view it.</p>
+        <img id="states" src="./images/states2.png" alt="Visual about number of states">
+        <img id="genre" src="./images/genres2.png" alt="Visual about number of genres">
+      </div>
 
     </section>
 
 
-    <!-- Second section: choose zone and view map -->
     <section id="secondscreen">
 
-      <!-- Left part: choose zone -->
       <div id="info">
 
-        <section id="seclogo">
-          <img id="logo" src="./images/logo.png" alt="Logo Gemeente Amsterdam">
+        <section id="header">
+          <h2>Check a Box to See the States Where that Genre is at the Top</h2>
         </section>
 
-        <!-- Checkboxes to choose zone -->
-        <section id="checkboxes">
-          <p id="explanation">Vink een prijs aan om de bijbehorende zones te bekijken</p>
-          <label id="zone1">
-            <input type="checkbox" value="7,50"> &euro;7,50 </label>
-          <label id="zone2">
-            <input type="checkbox" value="6,00"> &euro;6,00 </label>
-          <label id="zone3">
-            <input type="checkbox" value="4,50"> &euro;4,50 </label>
-          <label id="zone4">
-            <input type="checkbox" value="3,50"> &euro;3,50 </label>
-          <label id="zone5">
-            <input type="checkbox" value="2,50"> &euro;2,50 </label>
-          <label id="zone6">
-            <input type="checkbox" value="1,40"> &euro;1,40 </label>
+        <section id="genres">
+          <p id="explanation">Check a box and see what happens!</p>
+          <input type="checkbox" id="rock" value="rock">
+          <label for="rock">Rock</label> <br>
+          <input type="checkbox" id="hiphop" value="hiphop">
+          <label for="hiphop">Hiphop</label> <br>
+          <input type="checkbox" id="pop" value="pop">
+          <label for="pop">Pop</label> <br>
+          <input type="checkbox" id="indie" value="indie">
+          <label for="indie">Indie</label> <br>
+          <input type="checkbox" id="rb" value="rb">
+          <label for="rb">R&B</label> <br>
+          <input type="checkbox" id="altrock" value="altrock">
+          <label for="altrock">Alternative rock</label> <br>
+          <input type="checkbox" id="symprock" value="symprock">
+          <label for="symprock">Symphonic rock</label>
         </section>
 
-        <!-- Calculator to let user add numbers, to calculate probable cost -->
-        <section id="calculator">
-          <p>Bereken hier de prijs voor het parkeren</p>
-          <p>Prijs van de zone waar je parkeert: <input id="prices"></p>
-          <p>Aantal uur dat je wil parkeren: <input id="hour"></p>
-          <p id="answer">Totaal: </p>
-          <button id="answerbutton">Bereken prijs</button>
+        <section id="individual">
+          <p id="explanation">See our personal favorites!</p>
+          <input type="checkbox" id="lina" value="lina">
+          <label for="lina">Lina</label> <br>
+          <input type="checkbox" id="milo" value="milo">
+          <label for="milo">Milo</label> <br>
         </section>
 
-        <!-- Button for fun, to zoom to different place on map -->
-        <section id="buttons">
-          <button type="button" id="Lim" onClick="zoomLim()">Gratis parkeren? Klik hier!</button>
-          <button type="button" id="Ams" onClick="zoomAms()" style="display:none">Terug naar Amsterdam</button>
-          <p id="footer">Lina Parren, 2022</p>
+        <section id="footer">
+          <p>Milo van Sluis & Lina Parren</p>
         </section>
 
       </div>
 
-      <!-- Right part: view map -->
       <div id="map"></div>
+
+
 
     </section>
 
   </article>
 
   <!-- Add script to load JavaScript -->
-  <script type="module" src="./scripts/mapview.js"></script>
+  <script type="module" src="./scripts/main.js"></script>
 
 </body>
 

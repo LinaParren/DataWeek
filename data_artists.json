@@ -1,0 +1,452 @@
+{
+    "1": {
+        "Name": "Mr. Mister",
+        "Country (State if USA)": "Arizona",
+        "Coordinates": [[[34.34834363288256, -111.7516612994592]]],
+        "Genre": "Rock"
+    },
+    "2": {
+        "Name": "AC\/DC",
+        "Country (State if USA)": "Australia",
+        "Coordinates": [[[-24.669082266287795, 136.1416215129]]],
+        "Genre": "Hardrock"
+    }, 
+    "3": {
+        "Name": "Men at Work",
+        "Country (State if USA)": "Australia",
+        "Coordinates": [[[-24.669082266287795, 136.1416215128]]],
+        "Genre": "Rock"
+    },
+    "4": {
+        "Name": "Cher",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Pop"
+    },
+    "5": {
+        "Name": "Frank Ocean",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "R&B"
+    },
+    "6": {
+        "Name": "Guns N' Roses",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Hardrock"
+    },
+    "7": {
+        "Name": "Red Hot Chili Peppers",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Funkrock"
+    },
+    "8": {
+        "Name": "Starship",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Rock"
+    },
+    "9": {
+        "Name": "Steve Lacy",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Indie"
+    },
+    "10": {
+        "Name": "Steve Miller Band",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Rock"
+    },
+    "11": {
+        "Name": "Still Woozy",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Indie"
+    },
+    "12": {
+        "Name": "Tai Verdes",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Pop"
+    },
+    "13": {
+        "Name": "The Bangles",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Rock"
+    },
+    "14": {
+        "Name": "The Doobie Brothers",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Rock"
+    },
+    "15": {
+        "Name": "Toto",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Rock"
+    },
+    "16": {
+        "Name": "Van Halen",
+        "Country (State if USA)": "California",
+        "Coordinates": "36.37213197363729, -119.68014210845405",
+        "Genre": "Hardrock"
+    },
+    "17": {
+        "Name": "Alannah Myles",
+        "Country (State if USA)": "Canada",
+        "Coordinates": "60.350127875018515, -113.22656216162162",
+        "Genre": "Pop"
+    },
+    "18": {
+        "Name": "Bryan Adams",
+        "Country (State if USA)": "Canada",
+        "Coordinates": "60.350127875018515, -113.22656216162162",
+        "Genre": "Rock"
+    },
+    "19": {
+        "Name": "khai dreams",
+        "Country (State if USA)": "Canada",
+        "Coordinates": "60.350127875018515, -113.22656216162162",
+        "Genre": "Pop"
+    },
+    "20": {
+        "Name": "Terrell Morris",
+        "Country (State if USA)": "Canada",
+        "Coordinates": "60.350127875018515, -113.22656216162162",
+        "Genre": "Hiphop"
+    },
+    "21": {
+        "Name": "Philip Bailey",
+        "Country (State if USA)": "Colorado",
+        "Coordinates": "38.584661655924165, -105.25121709097505",
+        "Genre": "R&B"
+    },
+    "22": {
+        "Name": "Kanye West",
+        "Country (State if USA)": "Georgia",
+        "Coordinates": "32.660175802041195, -83.25658860038746",
+        "Genre": "Hiphop"
+    },
+    "23": {
+        "Name": "R.E.M.",
+        "Country (State if USA)": "Georgia",
+        "Coordinates": "32.660175802041195, -83.25658860038746",
+        "Genre": "Alternative rock"
+    },
+    "24": {
+        "Name": "REO Speedwagon",
+        "Country (State if USA)": "Illinois",
+        "Coordinates": "40.20918394127566, -89.38442311809594",
+        "Genre": "Rock"
+    },
+    "25": {
+        "Name": "Styx",
+        "Country (State if USA)": "Illinois",
+        "Coordinates": "40.20918394127566, -89.38442311809594",
+        "Genre": "Progressive rock"
+    },
+    "26": {
+        "Name": "Survivor",
+        "Country (State if USA)": "Illinois",
+        "Coordinates": "40.20918394127566, -89.38442311809594",
+        "Genre": "Rock"
+    },
+    "27": {
+        "Name": "Thin Lizzy",
+        "Country (State if USA)": "Ireland",
+        "Coordinates": "53.1907517054372, -8.036208188809782",
+        "Genre": "Hardrock"
+    },
+    "28": {
+        "Name": "Kansas",
+        "Country (State if USA)": "Kansas",
+        "Coordinates": "38.61900493520111, -98.11010351582236",
+        "Genre": "Symphonic rock"
+    },
+    "29": {
+        "Name": "Stevie Wonder",
+        "Country (State if USA)": "Michigan",
+        "Coordinates": "43.868187528949036, -84.26733071021309",
+        "Genre": "R&B"
+    },
+    "30": {
+        "Name": "3 Doors Down",
+        "Country (State if USA)": "Mississippi",
+        "Coordinates": "33.47038692737291, -89.98022109169376",
+        "Genre": "Rock"
+    },
+    "31": {
+        "Name": "Bruce Springsteen",
+        "Country (State if USA)": "New Jersey",
+        "Coordinates": "39.53453955695227, -74.85726626984727",
+        "Genre": "Rock"
+    },
+    "32": {
+        "Name": "Billy Joel",
+        "Country (State if USA)": "New York",
+        "Coordinates": "42.97450041571189, -75.74194020697276",
+        "Genre": "New wave"
+    },
+    "33": {
+        "Name": "Foreigner",
+        "Country (State if USA)": "New York",
+        "Coordinates": "42.97450041571189, -75.74194020697276",
+        "Genre": "Rock"
+    },
+    "34": {
+        "Name": "Joey Badass",
+        "Country (State if USA)": "New York",
+        "Coordinates": "42.97450041571189, -75.74194020697276",
+        "Genre": "Hiphop"
+    },
+    "35": {
+        "Name": "John Oates",
+        "Country (State if USA)": "New York",
+        "Coordinates": "42.97450041571189, -75.74194020697276",
+        "Genre": "Rock"
+    },
+    "36": {
+        "Name": "Jpegmafia",
+        "Country (State if USA)": "New York",
+        "Coordinates": "42.97450041571189, -75.74194020697276",
+        "Genre": "Hiphop"
+    },
+    "37": {
+        "Name": "a-ha",
+        "Country (State if USA)": "Norway",
+        "Coordinates": "61.99153746307686, 9.51414891578373",
+        "Genre": "Pop"
+    },
+    "38": {
+        "Name": "Paw Paw Rod",
+        "Country (State if USA)": "Oklahoma ",
+        "Coordinates": "35.914077038300434, -97.4505078322336",
+        "Genre": "Hiphop"
+    },
+    "39": {
+        "Name": "Aminé",
+        "Country (State if USA)": "Oregon",
+        "Coordinates": "43.888488969334944, -120.21417889711766",
+        "Genre": "Hiphop"
+    },
+    "40": {
+        "Name": "Binki",
+        "Country (State if USA)": "Pennsylvania",
+        "Coordinates": "40.882360328232195, -77.71947917500403",
+        "Genre": "Indie"
+    },
+    "41": {
+        "Name": "Daryl Hall",
+        "Country (State if USA)": "Pennsylvania",
+        "Coordinates": "40.882360328232195, -77.71947917500403",
+        "Genre": "Rock"
+    },
+    "42": {
+        "Name": "Mac Miller",
+        "Country (State if USA)": "Pennsylvania",
+        "Coordinates": "40.882360328232195, -77.71947917500403",
+        "Genre": "Hiphop"
+    },
+    "43": {
+        "Name": "Michael Sembello",
+        "Country (State if USA)": "Pennsylvania",
+        "Coordinates": "40.882360328232195, -77.71947917500403",
+        "Genre": "Pop"
+    },
+    "44": {
+        "Name": "ABBA",
+        "Country (State if USA)": "Sweden",
+        "Coordinates": "62.846041962107336, 16.545398579894922",
+        "Genre": "Pop"
+    },
+    "45": {
+        "Name": "Roxette",
+        "Country (State if USA)": "Sweden",
+        "Coordinates": "62.846041962107336, 16.545398579894922",
+        "Genre": "Pop"
+    },
+    "46": {
+        "Name": "Isaiah Rashad",
+        "Country (State if USA)": "Tennessee",
+        "Coordinates": "35.71305605938703, -86.90404936364513",
+        "Genre": "Hiphop"
+    },
+    "47": {
+        "Name": "Tina Turner",
+        "Country (State if USA)": "Tennessee",
+        "Coordinates": "35.71305605938703, -86.90404936364513",
+        "Genre": "Pop"
+    },
+    "48": {
+        "Name": "Don Henley",
+        "Country (State if USA)": "Texas",
+        "Coordinates": "31.61829255863286, -99.12084534014252",
+        "Genre": "Rock"
+    },
+    "49": {
+        "Name": "Kevin Abstract",
+        "Country (State if USA)": "Texas",
+        "Coordinates": "31.61829255863286, -99.12084534014252",
+        "Genre": "Hiphop"
+    },
+    "50": {
+        "Name": "Doe Maar",
+        "Country (State if USA)": "The Netherlands",
+        "Coordinates": "52.66857025205659, 7.130820119341237",
+        "Genre": "Pop"
+    },
+    "51": {
+        "Name": "10cc",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Rock"
+    },
+    "52": {
+        "Name": "Cassia",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Indie"
+    },
+    "53": {
+        "Name": "Duran Duran",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "New wave"
+    },
+    "54": {
+        "Name": "Electric Light Orchestra",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Symphonic rock"
+    },
+    "55": {
+        "Name": "Emerson Lake and Palmer",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "New wave"
+    },
+    "56": {
+        "Name": "Fleetwood Mac",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Rock"
+    },
+    "57": {
+        "Name": "Genesis",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Progressive rock"
+    },
+    "58": {
+        "Name": "Jethro Tull",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Symphonic rock"
+    },
+    "59": {
+        "Name": "Kaiser Chiefs",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Indie"
+    },
+    "60": {
+        "Name": "Kim Wilde",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "New wave"
+    },
+    "61": {
+        "Name": "Lil Simz",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Hiphop"
+    },
+    "62": {
+        "Name": "Loyle Carner",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Hiphop"
+    },
+    "63": {
+        "Name": "Ph.D.",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Pop"
+    },
+    "64": {
+        "Name": "Phil Collins",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Rock"
+    },
+    "65": {
+        "Name": "Pink Floyd",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "New wave"
+    },
+    "66": {
+        "Name": "Rick Astley",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Pop"
+    },
+    "67": {
+        "Name": "Simple Minds",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "New wave"
+    },
+    "68": {
+        "Name": "Soft Cell",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Synthpop"
+    },
+    "69": {
+        "Name": "Supertramp",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Symphonic rock"
+    },
+    "70": {
+        "Name": "Tears for Fears",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Rock"
+    },
+    "71": {
+        "Name": "The Police",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "New wave"
+    },
+    "72": {
+        "Name": "Thunder",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Rock"
+    },
+    "73": {
+        "Name": "Whitesnake",
+        "Country (State if USA)": "United Kingdom ",
+        "Coordinates": "55.04488305209278, -2.641921308783865",
+        "Genre": "Hardrock"
+    },
+    "74": {
+        "Name": "Bonnie Tyler",
+        "Country (State if USA)": "Wales",
+        "Coordinates": "52.010769174688164, -4.316933734426157",
+        "Genre": "Rock"
+    },
+    "75": {
+        "Name": "Heart",
+        "Country (State if USA)": "Washington",
+        "Coordinates": "47.34067388249494, -120.12670488308689",
+        "Genre": "Rock"
+    }
+}

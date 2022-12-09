@@ -10,24 +10,70 @@
 /* FIRST SCREEN */
 #firstscreen {
 	height: 100vh; 
+	/* background-color: #4E398F; */
+	background-image: linear-gradient(#654BD1, #3E2C66);
+	/* 654BD1, 3E2C66 */
 }
 
-#firstscreen #logo {
-	width: 18em;
-	display: block;
-	padding-top: 5em;
-	padding-bottom: 3em;
+#firstscreen #header {
+	display: flex;
+	flex-direction: column;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 2em;
+	/* width: 50%; */
+	background-color: #4B2E7E;
+	padding: 2em;
 }
 
-#firstscreen h2 {
-	font-size: 1.5em;
+#firstscreen #header h2 {
+	display: flex;
+	justify-content: center;
 	text-align: center;
+	padding-bottom: 1em;
+	color: #FED061;
+	font-size: 2em;
+	font-variant: small-caps;
 }
 
-#firstscreen p {
-	text-align: center;
+#firstscreen #header p {
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-weight: light;
+}
+
+#firstscreen #header img {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	width: 15em;
+}
+
+#firstscreen #visuals {
+	display: flex;
+	flex-direction: row;
+	margin-left: 2em;
+	margin-top: 2em;
+}
+
+#firstscreen #visuals p {
+	color: white;
+	margin-top: 1em;
+	margin-right: 2em;
+}
+
+#firstscreen #states, #genre {
+	width: 25em;
+	display: flex;
+	margin: 1em;
+	/* padding: 1em; */
+	/* padding-top: 5em;
+	padding-bottom: 3em;
+	margin-left: auto;
+	margin-right: auto; */
 }
 
 #arrowdown {
@@ -43,96 +89,70 @@
 #secondscreen {
 	display: flex;
 	height: 100vh;
+	background-image: linear-gradient(#3E2C66, #654BD1);
 }
 
-#info {
+#secondscreen #info {
 	width: 30%;
 	padding-left: 2em;
 	padding-top: 1em;
 }
 
-#info #seclogo {
-	height: 20%;
-}
-
-#info #checkboxes {
-	height: 45%;
-}
-
-#info #calculator {
-	height: 18%;
-	margin-bottom: 1em;
-}
-
-#info #buttons {
+#secondscreen #info #header {
 	display: flex;
 	flex-direction: column;
-	margin-top: 3em;
-}
-
-#secondscreen #explanation {
-	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 2em;
-}
-
-#secondscreen #logo {
-	width: 12em;
-}
-
-#calculator {
-	font-size: 0.8em;
-	text-align: left;
-	border: dashed 1px black;
 	width: 70%;
-	padding: 0.5em;
+	background-color: #5540A7;
+	padding: 2em;
 }
 
-#calculator input{
-	width: 10%;
-}
-
-#calculator p {
-	margin-bottom: 0.5em;
-}
-
-#calculator p:first-of-type {
-	text-decoration: underline;
-}
-
-#calculator button {
-	font-size: 0.8em;
-	margin-bottom: 1em;
-	padding: 0.5em;
-	border: solid 0.1em black;
-	border-radius: none;
-	background-color: white;
-}
-
-#buttons button {
-	width: 35%;
-	font-size: 0.5em;
-	margin-bottom: 1em;
-	border: solid 0.1em red;
-	border-radius: none;
-	background-color: white;
-}
-
-#map { 
-	width: 70%;
-}
-
-#footer {
-	font-size: 0.5em;
-}
-
-input[type=checkbox] {
-	order: 2;
-	margin-left: 3em;
-}
-
-label {
+#secondscreen #info #header h2 {
 	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #FED061;
+	font-size: 1.5em;
+	font-variant: small-caps;
+}
+
+#secondscreen #info #genres {
+	height: 35%;
+}
+
+#secondscreen #info #genres p{
+	color: #FED061;
+}
+
+#secondscreen #info #individual {
+	height: 35%;
+}
+
+#secondscreen #info #individual p {
+	color: #FED061;
+}
+
+#secondscreen #map { 
+	width: 70%;
+}
+
+#secondscreen #footer {
+	font-size: 0.5em;
+	bottom: 0;
+}
+
+/* input[type=checkbox] { */
+	/* order: 2; */
+	/* margin-left: 3em; */
+/* } */
+
+#secondscreen label {
+	/* display: flex; */
 	margin-bottom: 1em;
+	padding-left: 2em;
+	color: white;
 }
 
 
@@ -145,25 +165,4 @@ label {
 
 #scroll section {
     scroll-snap-align: start;
-}
-
-
-/* Colors for the different zones */
-#zone1 {
-	color: #FF0000;
-}
-#zone2{
-	color: #FF9D00;
-}
-#zone3{
-	color: #F7E405;
-}
-#zone4{
-	color: #6CD800;
-}
-#zone5{
-	color: #0062FF;
-}
-#zone6{
-	color: #BE00EB;
 }
